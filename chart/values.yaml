@@ -1,3 +1,18 @@
 # Metrics Server Values
 metricsServer:
   enable: true
+
+# Nginx Values
+ingressNginx:
+  enable: true
+  createNamespace: true
+
+# External Secrets Operator
+externalSecrets:
+  enable: true
+
+# Cert Manager Values
+certManager:
+  enable: true
+  createNamespace: true
+  serviceAccountName:
